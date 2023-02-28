@@ -11,5 +11,15 @@ pipeline {
                 
             }
         }
+         stage('checkout'){
+        steps{
+                git 'https://github.com/63070078/swt_homework.git'
+            }
+        }
+        stage('Run Python'){
+        steps{
+                sh 'python /Homework/myscript.py'
+            }
+        }
     }
 }
