@@ -13,7 +13,7 @@ pipeline {
         }
          stage('checkout'){
         steps{
-                git 'https://github.com/63070078/swt_homework.git'
+                git 'https://github.com/63070078/swt_homework'
             }
         }
         stage('Run Python'){
