@@ -13,7 +13,7 @@ pipeline {
         }
          stage('checkout'){
         steps{
-                git 'https://github.com/63070078/swt_homework'
+                git 'https://github.com/63070078/SOFTWARE-DEVELOPMENT-TOOLS-AND-ENVIRONMENTS/blob/main/Week7/'
             }
         }
         stage('Run Python'){
